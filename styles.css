@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu_items {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 12px;
+}
+
+.intermediate_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: #1f2937;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.placeholder1 {
+    display: flex;
+    color: #fff;
+    background-color: #656C73;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tittle {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold 700;
+    color: #f9faf8;
+}
+
+.subtittle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button1 {
+    border: none;
+    background-color: #3882f6;
+    height: 30px;
+    width: 95px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.maintittle {
+    padding: 22px;
+    text-align: center;
+}
+
+.sectionimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    height: 400px;
+    
+}
+
+.imagecontent {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imagedescription {
+    color: grey;
+    width: 200px;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+.underimages {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.phrase {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: grey;
+    width: 800px;
+    
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 23px;
+    width: 800px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    height: 100px;
+    width: 800px;
+    border-radius: 7px;
+}
+
+.button2 {
+    border: 1px solid white;
+    background-color: #3882f6;
+    height: 30px;
+    width: 95px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.footertext, h2, p {
+    color: white;
+}
